@@ -25,6 +25,10 @@ body {
   display: inline-block;
 }
 
+.field:not(:last-child) {
+  margin-right: 10px;
+}
+
 .value {
   padding: 15px;
   border-radius: 3px;
